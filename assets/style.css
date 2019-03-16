@@ -5,23 +5,36 @@
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding-right: 25px;
     padding-left: 25px;
-    left: 12.5%;
-    position: absolute;
+    /* left: 12.5%;
+    position: absolute; */
     font-size: 25px;
     height: 48px;
     line-height: 39px;
+    
   }
 
+
+
 .navbar {
-    min-height: 50px;
+    /* min-height: 50px; */
     border-bottom: 2px solid #cccccc;
     color:#ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 10%;
+  
   }
 
+ .navbar-toggler{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    
+ } 
+
 .navbar-nav{
-    right: 12.5%;
-    position: absolute;
+    /* right: 12.5%;
+    position: absolute; */
     /* top: 0; */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }  
@@ -32,7 +45,7 @@ body {
     
     }
 
-.container{
+.mycontentarea{
     width: 960px;
     position: relative;
     background-color: #ffffff;
@@ -40,6 +53,7 @@ body {
     min-height: 100px;
     margin: auto;
     margin-top: 25px;
+    
 }
 
 .mypageheader{
@@ -49,7 +63,7 @@ body {
     font-size: 25px;
     padding-left: 25px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     
 }
 
@@ -62,3 +76,75 @@ body {
     border-bottom: 2px solid #cccccc;/* This creates the border. Replace black with whatever color you want. */
 }
 
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    font-size: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    margin-top: 50px;
+    height: 50px;
+    overflow: hidden;
+
+  
+}
+
+.contactp{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px; 
+    color: #777777;
+}
+
+.myinputbox{
+    width: 910px;
+    padding-left: 10px;
+    height: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+
+.myemailbox{
+    width: 910px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    height: 150px;
+    margin-top: 0px;
+}
+
+button{
+    margin-bottom: 20px;
+    color: white;
+    background-color: #4aaaa5;
+    border: none;
+}
+
+.centered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    color:white;
+    width:90%;
+    padding: 5%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size:2vw;
+  }
+    
+.container {
+    position: relative;
+ }
+
+.imagerow{
+    margin-bottom: 5%;
+}

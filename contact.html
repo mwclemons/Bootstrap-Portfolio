@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MC - About Me</title>
+    <title>MC - Contact</title>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css">
@@ -11,23 +11,67 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Michael W. Clemons II</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html">About</a>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link active" href="contact.html">Contact</a><span class="sr-only">(current)</span>
-            
-          </div>
-        </div>
-    </nav>
+  <div class="container-fluid">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Michael W. Clemons II</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mx-auto mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+      </div>
+    </nav>
+        
+  </div>
+
+  <div class="container mycontentarea">
+      <div class="row mypageheader">
+          Contact
+      </div>
+      <div class="row contactp">
+        Name
+      </div>
+      <div class="row contactp">
+        <input type="text" name="myname" placeholder="John Smith" class="myinputbox">
+      </div>
+      <div class="row contactp">
+        Email
+      </div>
+      <div class="row contactp">
+        <input type="text" name="myemail" placeholder="example@gmail.com" class="myinputbox">
+      </div>
+      <div class="row contactp">
+        Message
+      </div>
+      <div class="row contactp">
+        <input type="text" name="mymessage" class="myemailbox">
+      </div>
+      <div class="row contactp">
+        <button type="button">Submit</button>
+      </div>
+  </div>
+
+  <div class="container-fluid">
+      <footer class="footer">
+          <p>Copyright ©</p>
+      </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
